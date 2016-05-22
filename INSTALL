@@ -1,25 +1,24 @@
 
 
 
-         Get binaries from source:
-         -------------------------
+         How to get binaries from source:
+         -------------------------------
   
          -> cd <MiMPI directory>
   
-            Go to MiMPI base directory.
+            To go to the MiMPI base directory.
   
          -> vi configure.in
 
-            [ OPTIONAL ] Add or change any option you wish.
+            [ OPTIONAL ] To add or change any option you wish.
   
          -> autoconf
 
-            Command to use in order to generate "configure" script.
+            Command to use in order to generate the "configure" script.
   
          -> ./configure
   
-            Use Autoconf in order to guess your system and generates
-            Makefiles.
+            Use ./configure in order to check your system and to generate the associated Makefiles.
   
          -> make
   
@@ -28,8 +27,8 @@
             examples ( example/* )
   
 
-         Install binaries into system:
-         -----------------------------
+         How to install binaries into system:
+         -----------------------------------
   
          -> cp lib/libmpi.a     <system library path>
             cp include/mpi.h    <system includes path>
@@ -49,8 +48,7 @@
         
           -> make
         
-             Compile many test. Some plataforms miss
-             some option.
+             Compile many test. Some options are plataform-bounded.
 
 
 
