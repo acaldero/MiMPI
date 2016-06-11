@@ -4,23 +4,23 @@ Quick Start
 How to get binaries from source:
 -------------------------------
   
-   -> cd <MiMPI directory>
+   # cd <MiMPI directory>
   
         To go to the MiMPI base directory.
   
-   -> vi configure.in
+   # vi configure.in
 
         [ OPTIONAL ] To add or change any option you wish.
   
-   -> autoconf
+   # autoconf
 
         Command to use in order to generate the "configure" script.
   
-   -> ./configure
+   # ./configure
   
         Use ./configure in order to check your system and to generate the associated Makefiles.
   
-   -> make
+   # make
   
         Compile MiMPI as a library ( lib/libmpi.a ),
         a daemon needed to run ( bin/ns.exe ) and some
@@ -30,9 +30,9 @@ How to get binaries from source:
 How to install binaries into system:
 -----------------------------------
   
-   -> cp lib/libmpi.a     &lt;system library path&gt;
-      cp include/mpi.h    &lt;system includes path&gt;
-      cp bin/ns.exe       &lt;system binary path&gt;
+   # cp lib/libmpi.a     &lt;system library path&gt;<br>
+   # cp include/mpi.h    &lt;system includes path&gt;<br>
+   # cp bin/ns.exe       &lt;system binary path&gt;
   
       System library path are usally /lib or /usr/lib.
       System includes path is /usr/include and
@@ -42,11 +42,11 @@ How to install binaries into system:
 Some test for MiMPI:
 --------------------
   
-   -> cd test
+   # cd test
         
         Go to test directory.
         
-   -> make
+   # make
         
         Compile many test. Some options are plataform-bounded.
 
