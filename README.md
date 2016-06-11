@@ -30,25 +30,25 @@ How to get binaries from source:
 How to install binaries into system:
 -----------------------------------
   
-   -> cp lib/libmpi.a     <system library path>
-        cp include/mpi.h    <system includes path>
-        cp bin/ns.exe       <system binary path>
+   -> cp lib/libmpi.a     &lt;system library path&gt;
+      cp include/mpi.h    &lt;system includes path&gt;
+      cp bin/ns.exe       &lt;system binary path&gt;
   
-        System library path are usally /lib or /usr/lib.
-        System includes path is /usr/include and
-        System binary path can be /bin or /usr/bin.
+      System library path are usally /lib or /usr/lib.
+      System includes path is /usr/include and
+      System binary path can be /bin or /usr/bin.
   
   
 Some test for MiMPI:
 --------------------
   
-    -> cd test
+   -> cd test
         
-         Go to test directory.
+        Go to test directory.
         
-    -> make
+   -> make
         
-         Compile many test. Some options are plataform-bounded.
+        Compile many test. Some options are plataform-bounded.
 
 
 
